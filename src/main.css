@@ -76,3 +76,7 @@ input[type="number"] {
   font-size: 50%;
   font-family: "Pacifico", cursive;
 }
+
+span.num {
+  color: rgb(243, 94, 24);
+}
