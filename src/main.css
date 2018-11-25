@@ -1,0 +1,78 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #40407a;
+  font-family: "Pacifico", cursive;
+  font-weight: 900;
+  font-size: 70px;
+  color: #f3f3f3;
+  padding-left: 100px;
+  height: 15%;
+}
+
+#main {
+  box-sizing: border-box;
+  width: 100%;
+  height: 85%;
+  background-color: #227093;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.buttons {
+  background: #227093;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  color: #40407a;
+  padding-top: 3px;
+  font-size: 50%;
+  font-family: "Pacifico", cursive;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+div.results,
+.input {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #40407a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  flex-direction: row;
+}
+.input-button {
+  padding: 30px;
+}
+
+.walk {
+  height: 100%;
+}
+
+input[type="number"] {
+  border: 5px solid rgb(145, 87, 142);
+  border-radius: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff;
+  outline: none;
+  width: 120px;
+  padding: 3px;
+  font-size: 50%;
+  font-family: "Pacifico", cursive;
+}
